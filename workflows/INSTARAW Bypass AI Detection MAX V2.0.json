@@ -1,0 +1,4404 @@
+{
+  "id": "e109c27a-1350-4263-a473-353de729b5c5",
+  "revision": 0,
+  "last_node_id": 99,
+  "last_link_id": 152,
+  "nodes": [
+    {
+      "id": 6,
+      "type": "Image Comparer (rgthree)",
+      "pos": [
+        4538.075968370073,
+        1647.9294910168062
+      ],
+      "size": [
+        401.96884802673685,
+        571.6109975473576
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 20,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "image_a",
+          "type": "IMAGE",
+          "link": 65
+        },
+        {
+          "dir": 3,
+          "name": "image_b",
+          "type": "IMAGE",
+          "link": 139
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "rgthree-comfy",
+        "ver": "1.0.2511111955",
+        "comparer_mode": "Slide",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        [
+          {
+            "name": "A",
+            "selected": true,
+            "url": "/api/view?filename=rgthree.compare._temp_enedo_00043_.png&type=temp&subfolder=&rand=0.7067261517226664"
+          },
+          {
+            "name": "B",
+            "selected": true,
+            "url": "/api/view?filename=rgthree.compare._temp_enedo_00044_.png&type=temp&subfolder=&rand=0.6544055457954542"
+          }
+        ]
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 10,
+      "type": "Image Comparer (rgthree)",
+      "pos": [
+        4527.8747837942265,
+        2425.6872800780793
+      ],
+      "size": [
+        401.96884802673685,
+        571.6109975473576
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 23,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "image_a",
+          "type": "IMAGE",
+          "link": 16
+        },
+        {
+          "dir": 3,
+          "name": "image_b",
+          "type": "IMAGE",
+          "link": 67
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "rgthree-comfy",
+        "ver": "1.0.2511111955",
+        "comparer_mode": "Slide",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        [
+          {
+            "name": "A",
+            "selected": true,
+            "url": "/api/view?filename=rgthree.compare._temp_dphcb_00043_.png&type=temp&subfolder=&rand=0.6153296019395019"
+          },
+          {
+            "name": "B",
+            "selected": true,
+            "url": "/api/view?filename=rgthree.compare._temp_dphcb_00044_.png&type=temp&subfolder=&rand=0.5534063608224019"
+          }
+        ]
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 40,
+      "type": "PreviewImage",
+      "pos": [
+        4105.706539667614,
+        3188.077051967772
+      ],
+      "size": [
+        401.96884802673685,
+        571.6109975473576
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 25,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 74
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.68",
+        "Node name for S&R": "PreviewImage",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 43,
+      "type": "PreviewImage",
+      "pos": [
+        5508.429276455814,
+        1656.1584465746553
+      ],
+      "size": [
+        401.96884802673685,
+        571.6109975473576
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 28,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 77
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.68",
+        "Node name for S&R": "PreviewImage",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 53,
+      "type": "PreviewImage",
+      "pos": [
+        6900.629673836244,
+        2433.9162356359284
+      ],
+      "size": [
+        401.96884802673685,
+        571.6109975473576
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 41,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 97
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.68",
+        "Node name for S&R": "PreviewImage",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 45,
+      "type": "Image Comparer (rgthree)",
+      "pos": [
+        5920.39633600658,
+        2433.9162356359284
+      ],
+      "size": [
+        401.96884802673685,
+        571.6109975473576
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 31,
+      "mode": 4,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "image_a",
+          "type": "IMAGE",
+          "link": 84
+        },
+        {
+          "dir": 3,
+          "name": "image_b",
+          "type": "IMAGE",
+          "link": 83
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "rgthree-comfy",
+        "ver": "1.0.2511111955",
+        "comparer_mode": "Slide",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        [
+          {
+            "name": "A",
+            "selected": true,
+            "url": "/api/view?filename=rgthree.compare._temp_pyzmu_00003_.png&type=temp&subfolder=&rand=0.9991700297212679"
+          },
+          {
+            "name": "B",
+            "selected": true,
+            "url": "/api/view?filename=rgthree.compare._temp_pyzmu_00004_.png&type=temp&subfolder=&rand=0.6463239515228285"
+          }
+        ]
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 39,
+      "type": "Image Comparer (rgthree)",
+      "pos": [
+        4527.8747837942265,
+        3188.0770519677726
+      ],
+      "size": [
+        401.96884802673685,
+        571.6109975473576
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 26,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "image_a",
+          "type": "IMAGE",
+          "link": 75
+        },
+        {
+          "dir": 3,
+          "name": "image_b",
+          "type": "IMAGE",
+          "link": 76
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "rgthree-comfy",
+        "ver": "1.0.2511111955",
+        "comparer_mode": "Slide",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        [
+          {
+            "name": "A",
+            "selected": true,
+            "url": "/api/view?filename=rgthree.compare._temp_cngfn_00041_.png&type=temp&subfolder=&rand=0.9989977640852344"
+          },
+          {
+            "name": "B",
+            "selected": true,
+            "url": "/api/view?filename=rgthree.compare._temp_cngfn_00042_.png&type=temp&subfolder=&rand=0.348813252654099"
+          }
+        ]
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 42,
+      "type": "Image Comparer (rgthree)",
+      "pos": [
+        5930.597520582426,
+        1656.1584465746553
+      ],
+      "size": [
+        401.96884802673685,
+        571.6109975473576
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 29,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "image_a",
+          "type": "IMAGE",
+          "link": 78
+        },
+        {
+          "dir": 3,
+          "name": "image_b",
+          "type": "IMAGE",
+          "link": 81
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "rgthree-comfy",
+        "ver": "1.0.2511111955",
+        "comparer_mode": "Slide",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        [
+          {
+            "name": "A",
+            "selected": true,
+            "url": "/api/view?filename=rgthree.compare._temp_tmlhx_00041_.png&type=temp&subfolder=&rand=0.004247014150422723"
+          },
+          {
+            "name": "B",
+            "selected": true,
+            "url": "/api/view?filename=rgthree.compare._temp_tmlhx_00042_.png&type=temp&subfolder=&rand=0.004587966178721703"
+          }
+        ]
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 52,
+      "type": "Image Comparer (rgthree)",
+      "pos": [
+        7322.797917962856,
+        2433.9162356359284
+      ],
+      "size": [
+        401.96884802673685,
+        571.6109975473576
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 42,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "image_a",
+          "type": "IMAGE",
+          "link": 98
+        },
+        {
+          "dir": 3,
+          "name": "image_b",
+          "type": "IMAGE",
+          "link": 96
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "rgthree-comfy",
+        "ver": "1.0.2511111955",
+        "comparer_mode": "Slide",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        [
+          {
+            "name": "A",
+            "selected": true,
+            "url": "/api/view?filename=rgthree.compare._temp_paybz_00039_.png&type=temp&subfolder=&rand=0.7794490373446912"
+          },
+          {
+            "name": "B",
+            "selected": true,
+            "url": "/api/view?filename=rgthree.compare._temp_paybz_00040_.png&type=temp&subfolder=&rand=0.5253587412679743"
+          }
+        ]
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 55,
+      "type": "PreviewImage",
+      "pos": [
+        6900.629673836244,
+        3196.3060075256217
+      ],
+      "size": [
+        401.96884802673685,
+        571.6109975473576
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 44,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 99
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.68",
+        "Node name for S&R": "PreviewImage",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 56,
+      "type": "Image Comparer (rgthree)",
+      "pos": [
+        7322.797917962856,
+        3196.3060075256217
+      ],
+      "size": [
+        401.96884802673685,
+        571.6109975473576
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 45,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "image_a",
+          "type": "IMAGE",
+          "link": 100
+        },
+        {
+          "dir": 3,
+          "name": "image_b",
+          "type": "IMAGE",
+          "link": 102
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "rgthree-comfy",
+        "ver": "1.0.2511111955",
+        "comparer_mode": "Slide",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        [
+          {
+            "name": "A",
+            "selected": true,
+            "url": "/api/view?filename=rgthree.compare._temp_gpdph_00013_.png&type=temp&subfolder=&rand=0.8945988562709709"
+          },
+          {
+            "name": "B",
+            "selected": true,
+            "url": "/api/view?filename=rgthree.compare._temp_gpdph_00014_.png&type=temp&subfolder=&rand=0.7055962329645884"
+          }
+        ]
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 51,
+      "type": "INSTARAW_Pixel_Perturb",
+      "pos": [
+        6548.530506895053,
+        2433.9162356359284
+      ],
+      "size": [
+        326.0333312988281,
+        106
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 40,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 95
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            97,
+            98,
+            101,
+            102
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "INSTARAW_Pixel_Perturb",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        0.008,
+        1111111,
+        "fixed"
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 59,
+      "type": "Image Comparer (rgthree)",
+      "pos": [
+        8693.275258107831,
+        1658.9686902594617
+      ],
+      "size": [
+        401.96884802673685,
+        571.6109975473576
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 48,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "image_a",
+          "type": "IMAGE",
+          "link": 105
+        },
+        {
+          "dir": 3,
+          "name": "image_b",
+          "type": "IMAGE",
+          "link": 106
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "rgthree-comfy",
+        "ver": "1.0.2511111955",
+        "comparer_mode": "Slide",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        [
+          {
+            "name": "A",
+            "selected": true,
+            "url": "/api/view?filename=rgthree.compare._temp_egttu_00039_.png&type=temp&subfolder=&rand=0.6938092271795361"
+          },
+          {
+            "name": "B",
+            "selected": true,
+            "url": "/api/view?filename=rgthree.compare._temp_egttu_00040_.png&type=temp&subfolder=&rand=0.28432826631008146"
+          }
+        ]
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 65,
+      "type": "SaveImage",
+      "pos": [
+        7959.613611839617,
+        2432.8477219199676
+      ],
+      "size": [
+        1120.6674460305371,
+        1333.2904342162924
+      ],
+      "flags": {
+        "collapsed": false,
+        "pinned": true
+      },
+      "order": 49,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 112
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.66",
+        "Node name for S&R": "SaveImage",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "INSTARAW_no_metadata"
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 70,
+      "type": "PreviewAny",
+      "pos": [
+        10895.570100664772,
+        1778.9028648985206
+      ],
+      "size": [
+        332.15,
+        112
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 54,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "source",
+          "type": "*",
+          "link": 114
+        }
+      ],
+      "outputs": [],
+      "title": "Number of Metadata Tags Injected",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.66",
+        "Node name for S&R": "PreviewAny",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        null,
+        null,
+        false
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 46,
+      "type": "PreviewImage",
+      "pos": [
+        5498.228091879968,
+        2433.9162356359284
+      ],
+      "size": [
+        401.96884802673685,
+        571.6109975473576
+      ],
+      "flags": {
+        "collapsed": false,
+        "pinned": true
+      },
+      "order": 32,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 85
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.68",
+        "Node name for S&R": "PreviewImage",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 41,
+      "type": "INSTARAW_GLCM_Normalize",
+      "pos": [
+        5158.35015665292,
+        1656.1584465746553
+      ],
+      "size": [
+        326.0333312988281,
+        170
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 27,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 79
+        },
+        {
+          "name": "ref_image",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "profile_path",
+          "shape": 7,
+          "type": "STRING",
+          "link": 80
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            77,
+            78,
+            83,
+            86
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "INSTARAW_GLCM_Normalize",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        0.05,
+        "2",
+        1111111,
+        "randomize"
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 68,
+      "type": "INSTARAW_Metadata_Inspector",
+      "pos": [
+        10895.570100664772,
+        1665.4549882327842
+      ],
+      "size": [
+        332.15,
+        46
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 52,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "filepath",
+          "type": "STRING",
+          "link": 133
+        }
+      ],
+      "outputs": [
+        {
+          "name": "metadata_json",
+          "type": "STRING",
+          "links": [
+            113
+          ]
+        },
+        {
+          "name": "tag_count",
+          "type": "INT",
+          "links": [
+            114
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "INSTARAW_Metadata_Inspector",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 54,
+      "type": "INSTARAW_Spectral_Normalizer",
+      "pos": [
+        6548.530506895053,
+        3196.3060075256217
+      ],
+      "size": [
+        326.0333312988281,
+        274
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 43,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 101
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            99,
+            100,
+            103,
+            106
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "INSTARAW_Spectral_Normalizer",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        555,
+        0.0001,
+        0.04,
+        0.01,
+        0.00003,
+        0.6,
+        0.005,
+        1111111,
+        "fixed",
+        100
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 72,
+      "type": "Image Comparer (rgthree)",
+      "pos": [
+        9310.099786874636,
+        1664.6129709393235
+      ],
+      "size": [
+        1544.0012721894918,
+        2105.9631034511294
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 51,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "image_a",
+          "type": "IMAGE",
+          "link": 137
+        },
+        {
+          "dir": 3,
+          "name": "image_b",
+          "type": "IMAGE",
+          "link": 141
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "rgthree-comfy",
+        "ver": "1.0.2511111955",
+        "comparer_mode": "Slide",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        [
+          {
+            "name": "A",
+            "selected": true,
+            "url": "/api/view?filename=rgthree.compare._temp_lgash_00039_.png&type=temp&subfolder=&rand=0.48558591284991925"
+          },
+          {
+            "name": "B",
+            "selected": true,
+            "url": "/api/view?filename=rgthree.compare._temp_lgash_00040_.png&type=temp&subfolder=&rand=0.5057699585894357"
+          }
+        ]
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 11,
+      "type": "PreviewImage",
+      "pos": [
+        4105.706539667614,
+        2425.687280078079
+      ],
+      "size": [
+        401.96884802673685,
+        571.6109975473576
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 22,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 14
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.68",
+        "Node name for S&R": "PreviewImage",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 87,
+      "type": "MarkdownNote",
+      "pos": [
+        11722.648980158003,
+        1304.0747643205139
+      ],
+      "size": [
+        443.3905704499275,
+        256.7895999904126
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "# in this node you can control the metadata synthesis, play around with it. by default generates image with datestamp in the last 7 days, adds random US city gps and random iso settings (scene_type). inject_color_profile is experimental as displays will then change how the colors of image are displayed based on this metadata hence its disabled by default\n"
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 48,
+      "type": "Image Comparer (rgthree)",
+      "pos": [
+        7332.999102538703,
+        1656.3942413437553
+      ],
+      "size": [
+        401.96884802673685,
+        571.6109975473576
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 39,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "image_a",
+          "type": "IMAGE",
+          "link": 94
+        },
+        {
+          "dir": 3,
+          "name": "image_b",
+          "type": "IMAGE",
+          "link": 149
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "rgthree-comfy",
+        "ver": "1.0.2511111955",
+        "comparer_mode": "Slide",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        [
+          {
+            "name": "A",
+            "selected": true,
+            "url": "/api/view?filename=rgthree.compare._temp_nhkpn_00039_.png&type=temp&subfolder=&rand=0.25798601804721977"
+          },
+          {
+            "name": "B",
+            "selected": true,
+            "url": "/api/view?filename=rgthree.compare._temp_nhkpn_00040_.png&type=temp&subfolder=&rand=0.4580352681473112"
+          }
+        ]
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 49,
+      "type": "PreviewImage",
+      "pos": [
+        6910.8308584120905,
+        1656.1584465746553
+      ],
+      "size": [
+        401.96884802673685,
+        571.6109975473576
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 38,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 93
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.68",
+        "Node name for S&R": "PreviewImage",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 44,
+      "type": "INSTARAW_LBP_Normalize",
+      "pos": [
+        5148.148972077074,
+        2433.9162356359284
+      ],
+      "size": [
+        326.0333312988281,
+        194
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 30,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 86
+        },
+        {
+          "name": "ref_image",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "profile_path",
+          "shape": 7,
+          "type": "STRING",
+          "link": 135
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            84,
+            85,
+            107,
+            110,
+            142
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "INSTARAW_LBP_Normalize",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        0.05,
+        6,
+        42,
+        1111111,
+        "randomize"
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 60,
+      "type": "PreviewImage",
+      "pos": [
+        5498.228091879968,
+        3196.3060075256217
+      ],
+      "size": [
+        401.96884802673685,
+        571.6109975473576
+      ],
+      "flags": {
+        "collapsed": false,
+        "pinned": true
+      },
+      "order": 35,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 146
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.68",
+        "Node name for S&R": "PreviewImage",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 61,
+      "type": "Image Comparer (rgthree)",
+      "pos": [
+        5920.39633600658,
+        3196.3060075256217
+      ],
+      "size": [
+        401.96884802673685,
+        571.6109975473576
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 36,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "image_a",
+          "type": "IMAGE",
+          "link": 147
+        },
+        {
+          "dir": 3,
+          "name": "image_b",
+          "type": "IMAGE",
+          "link": 110
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "rgthree-comfy",
+        "ver": "1.0.2511111955",
+        "comparer_mode": "Slide",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        [
+          {
+            "name": "A",
+            "selected": true,
+            "url": "/api/view?filename=rgthree.compare._temp_kpvht_00041_.png&type=temp&subfolder=&rand=0.8669949705666808"
+          },
+          {
+            "name": "B",
+            "selected": true,
+            "url": "/api/view?filename=rgthree.compare._temp_kpvht_00042_.png&type=temp&subfolder=&rand=0.19512327319898382"
+          }
+        ]
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 90,
+      "type": "INSTARAW_RealisticNoise",
+      "pos": [
+        5148.148972077074,
+        3196.3060075256217
+      ],
+      "size": [
+        326.0333312988281,
+        202
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 34,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 142
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            146,
+            147,
+            148,
+            149
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "INSTARAW_RealisticNoise",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        1111111,
+        "fixed",
+        0.04,
+        0.02,
+        4.2,
+        2.1,
+        0.77
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 58,
+      "type": "PreviewImage",
+      "pos": [
+        8271.107013981218,
+        1658.9686902594617
+      ],
+      "size": [
+        401.96884802673685,
+        571.6109975473576
+      ],
+      "flags": {
+        "collapsed": false,
+        "pinned": true
+      },
+      "order": 47,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 104
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.68",
+        "Node name for S&R": "PreviewImage",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 9,
+      "type": "INSTARAW_LUT_Selector",
+      "pos": [
+        3758.383097018869,
+        2425.687280078079
+      ],
+      "size": [
+        326.0333312988281,
+        58
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "lut_path",
+          "type": "STRING",
+          "links": [
+            13
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "INSTARAW_LUT_Selector",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "natural_look.cube"
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 3,
+      "type": "PreviewImage",
+      "pos": [
+        4115.9077242434605,
+        1647.9294910168062
+      ],
+      "size": [
+        401.96884802673685,
+        571.6109975473576
+      ],
+      "flags": {
+        "collapsed": false,
+        "pinned": true
+      },
+      "order": 19,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 64
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.68",
+        "Node name for S&R": "PreviewImage",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 50,
+      "type": "INSTARAW_Camera_Simulator",
+      "pos": [
+        6558.731691470899,
+        1656.1584465746553
+      ],
+      "size": [
+        326.0333312988281,
+        322
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 37,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 148
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            93,
+            94,
+            95,
+            96
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "INSTARAW_Camera_Simulator",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        true,
+        1111111,
+        "fixed",
+        98,
+        0,
+        0,
+        true,
+        1,
+        2,
+        0,
+        0,
+        2
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 38,
+      "type": "INSTARAW_FFT_Match",
+      "pos": [
+        3758.383097018869,
+        3188.077051967772
+      ],
+      "size": [
+        326.0333312988281,
+        122
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 24,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 68
+        },
+        {
+          "name": "ref_image",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "profile_path",
+          "shape": 7,
+          "type": "STRING",
+          "link": 69
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            74,
+            75,
+            79,
+            81
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "INSTARAW_FFT_Match",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "Per-Channel (Legacy)",
+        0.42
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 77,
+      "type": "INSTARAW_SynthesizeAuthenticMetadata",
+      "pos": [
+        11731.276029738463,
+        1664.5310907399285
+      ],
+      "size": [
+        1386.6580938872726,
+        2107.047909337487
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 50,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 132
+        },
+        {
+          "name": "profile_path",
+          "type": "STRING",
+          "link": 131
+        }
+      ],
+      "outputs": [
+        {
+          "name": "filepath",
+          "type": "STRING",
+          "links": [
+            133
+          ]
+        }
+      ],
+      "title": "💾 INSTARAW Synthesize & Save w/ Authentic Metadata",
+      "properties": {
+        "Node name for S&R": "INSTARAW_SynthesizeAuthenticMetadata",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "increment",
+        false,
+        "Synthesize Random (US City)",
+        "Synthesize Random",
+        "2025-11-08T03:39:48",
+        "2025-11-15T03:39:48",
+        "Synthesize Random",
+        "Instaraw/BypassDetection/",
+        ""
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 84,
+      "type": "MarkdownNote",
+      "pos": [
+        3904.4784277368935,
+        1391.5506579296402
+      ],
+      "size": [
+        384.15224909270046,
+        161.74815955661052
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "# play with the values in the boxes 1., 2. and 3. to get a feel for it.\n\n## In some scenes strengths as high as 1 worked good, in others 0.2-0.3 seems to almost be too much even"
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 85,
+      "type": "MarkdownNote",
+      "pos": [
+        5261.498065861943,
+        1417.6048521553034
+      ],
+      "size": [
+        477.1002476512426,
+        150.86493307541764
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 3,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "# don't really need to change the settings of 4. and 5.\n\n# 5. can overcook the image, you can always bypass it"
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 82,
+      "type": "MarkdownNote",
+      "pos": [
+        6617.330878840041,
+        1301.3430739803166
+      ],
+      "size": [
+        786.7724423699274,
+        270.03251619092475
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "# in 7. change motion_blur_kernel to 2 in more dynamic scenes to add more good looking blur into image.\n# vignette_strength to 0.5 for stylistic look\n\n# chromatic_aberration to 0.5 for stylistic look\n\n# iso_noise_scale to 1 + sensor_read_noise to 2 to add more noise\n\n# bayer_demosaic for more blurry look (and perhaps lower chance of detection)\n\n# 8. doesn't need to be touched\n"
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 80,
+      "type": "MarkdownNote",
+      "pos": [
+        6686.12327821025,
+        3834.6506385603193
+      ],
+      "size": [
+        371.86270718847027,
+        142.3437651697377
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 5,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "# 9. cooks the image a lot - use with caution. This can help with synthid if nothing else helps, crank up the steps and LR"
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 88,
+      "type": "MarkdownNote",
+      "pos": [
+        3829.410171006893,
+        3827.6377383326294
+      ],
+      "size": [
+        387.3292295719666,
+        213.97818463014346
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 6,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "# 3. switching this to per-channel seems to increase chance of bypassing a lot for some reason but I like the look of color-safe more as it doesn't cook the colors as much.. for max bypass switch this to per-channel :)"
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 37,
+      "type": "INSTARAW_AutoWhiteBalance",
+      "pos": [
+        3772.4842754911997,
+        1647.9294910168062
+      ],
+      "size": [
+        326.0333312988281,
+        122
+      ],
+      "flags": {
+        "collapsed": false,
+        "pinned": true
+      },
+      "order": 18,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 140
+        },
+        {
+          "name": "awb_ref_image",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "profile_path",
+          "shape": 7,
+          "type": "STRING",
+          "link": 63
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            64,
+            65,
+            66,
+            67
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "INSTARAW_AutoWhiteBalance",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "Internal Sample Image (iPhone)",
+        0.22
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 69,
+      "type": "PreviewAny",
+      "pos": [
+        10902.594219865428,
+        1935.0907665586792
+      ],
+      "size": [
+        780.0211120388885,
+        1834.067393430008
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 53,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "source",
+          "type": "*",
+          "link": 113
+        }
+      ],
+      "outputs": [],
+      "title": "INJECTED METADATA",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.66",
+        "Node name for S&R": "PreviewAny",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        null,
+        null,
+        false
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 83,
+      "type": "MarkdownNote",
+      "pos": [
+        3274.305371435738,
+        1391.1652689563468
+      ],
+      "size": [
+        374.40101374365304,
+        129.24404172645131
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 7,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "# here can play around with different iphone models, I personally like iphone_12s look a lot, looks very amateur imo\n"
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 8,
+      "type": "INSTARAW_ColorScience",
+      "pos": [
+        3758.383097018869,
+        2563.3593367697754
+      ],
+      "size": [
+        326.0333312988281,
+        78
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 21,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 66
+        },
+        {
+          "name": "lut_path",
+          "type": "STRING",
+          "link": 13
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            14,
+            16,
+            68,
+            76
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "INSTARAW_ColorScience",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        0.22
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 57,
+      "type": "INSTARAW_Multi_Compression",
+      "pos": [
+        7969.814796415462,
+        1658.9686902594617
+      ],
+      "size": [
+        279.34999694824216,
+        178
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 46,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 103
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            104,
+            105,
+            112,
+            132,
+            137
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "INSTARAW_Multi_Compression",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        true,
+        4,
+        42,
+        75,
+        1111111,
+        "fixed"
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 81,
+      "type": "MarkdownNote",
+      "pos": [
+        7950.094954210398,
+        1398.0318255825493
+      ],
+      "size": [
+        424.23336528538584,
+        175.48120973405457
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 8,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "# 10. also cooks the image a lot, does multiple cycles of jpgfication, feel free to play around with it can make cycles anything like 1-4 cycles even, powerful stuff, u can adjust min- and max_quality as well to add randomness"
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 36,
+      "type": "INSTARAW_AuthenticityProfile_Selector",
+      "pos": [
+        3298.191277870985,
+        1647.9294910168062
+      ],
+      "size": [
+        315.1333374023437,
+        58
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 9,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "profile_path",
+          "type": "STRING",
+          "links": [
+            63,
+            69,
+            80,
+            131,
+            135
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "INSTARAW_AuthenticityProfile_Selector",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "iphone_12"
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 94,
+      "type": "Fast Groups Bypasser (rgthree)",
+      "pos": [
+        3297.9328979909196,
+        1820.0963875022953
+      ],
+      "size": [
+        313.5349107100409,
+        322
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 10,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "OPT_CONNECTION",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "properties": {
+        "matchColors": "blue",
+        "matchTitle": "",
+        "showNav": true,
+        "showAllGraphs": true,
+        "sort": "custom alphabet",
+        "customSortAlphabet": "1.,2.,3.,4.,5.,6.,7.,8.,9.,10.,11.,12.",
+        "toggleRestriction": "default"
+      },
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 93,
+      "type": "INSTARAW_AdvancedImageLoader",
+      "pos": [
+        1974.451026015353,
+        1383.928945832444
+      ],
+      "size": [
+        817.6157062286576,
+        603
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 11,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "links": [
+            151
+          ]
+        },
+        {
+          "name": "index",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "total",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "info",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "INSTARAW_AdvancedImageLoader",
+        "batch_data": "{\"images\":[],\"order\":[],\"total_count\":0}",
+        "txt2img_data_backup": "{\"latents\":[],\"order\":[],\"total_count\":0}",
+        "img2img_data_backup": "{\"images\":[],\"order\":[],\"total_count\":0}",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "Sequential",
+        "Center Crop",
+        0,
+        4096,
+        4096,
+        "1:1",
+        true,
+        "{\"images\":[],\"order\":[],\"total_count\":0}",
+        "{\"images\":[],\"order\":[],\"total_count\":0}"
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 89,
+      "type": "INSTARAW_EnsureImageResolution",
+      "pos": [
+        2854.9943831387022,
+        1383.928945832444
+      ],
+      "size": [
+        356.3833374023437,
+        194
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 17,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 151
+        }
+      ],
+      "outputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            139,
+            140,
+            141
+          ]
+        },
+        {
+          "name": "was_changed",
+          "type": "BOOLEAN",
+          "links": null
+        },
+        {
+          "name": "info_text",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "INSTARAW_EnsureImageResolution",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        true,
+        921600,
+        4096,
+        "lanczos",
+        8
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 96,
+      "type": "INSTARAW_BrandingNode",
+      "pos": [
+        2852.1725767062903,
+        1641.7800796585452
+      ],
+      "size": [
+        195.91818237304688,
+        105
+      ],
+      "flags": {
+        "collapsed": false,
+        "pinned": true
+      },
+      "order": 12,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Powered by 🍑",
+      "properties": {
+        "aux_id": "instara-io/ComfyUI_INSTARAW",
+        "Node name for S&R": "INSTARAW_BrandingNode",
+        "logo_url": "https://instara.s3.us-east-1.amazonaws.com/INSTARAW_logomark_only.svg",
+        "width": 120,
+        "height": 105,
+        "ver": "12afb909b3380bd4a3f118061654dd72d1edcd4c",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.2.2"
+        }
+      },
+      "widgets_values": [],
+      "color": "#223",
+      "bgcolor": "#335",
+      "boxcolor": "transparent"
+    },
+    {
+      "id": 62,
+      "type": "INSTARAW_NeuralGrain",
+      "pos": [
+        5148.148972077074,
+        3478.851746745052
+      ],
+      "size": [
+        326.0333312988281,
+        130
+      ],
+      "flags": {},
+      "order": 33,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 107
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": []
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "INSTARAW_NeuralGrain",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        1111111,
+        "fixed",
+        0.15,
+        0.22
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 86,
+      "type": "MarkdownNote",
+      "pos": [
+        5224.754962485323,
+        3832.0703780572103
+      ],
+      "size": [
+        371.86270718847027,
+        142.3437651697377
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 13,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "# 6. can play around with these values"
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 98,
+      "type": "Label (rgthree)",
+      "pos": [
+        4427.752791304363,
+        1153.5872038821037
+      ],
+      "size": [
+        2145.60009765625,
+        180
+      ],
+      "flags": {
+        "allow_interaction": true
+      },
+      "order": 14,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "t.me/NHUB_Community",
+      "properties": {
+        "fontSize": 180,
+        "fontFamily": "serif",
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "backgroundColor": "transparent",
+        "padding": 0,
+        "borderRadius": 0,
+        "angle": 0
+      },
+      "color": "#fff0",
+      "bgcolor": "#fff0"
+    },
+    {
+      "id": 99,
+      "type": "Label (rgthree)",
+      "pos": [
+        2808.3883900610235,
+        1147.8558280595237
+      ],
+      "size": [
+        1429.88330078125,
+        180
+      ],
+      "flags": {
+        "allow_interaction": true
+      },
+      "order": 15,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Noguti DarkHub",
+      "properties": {
+        "fontSize": 180,
+        "fontFamily": "serif",
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "backgroundColor": "transparent",
+        "padding": 0,
+        "borderRadius": 0,
+        "angle": 0
+      },
+      "color": "#fff0",
+      "bgcolor": "#fff0"
+    },
+    {
+      "id": 95,
+      "type": "Note",
+      "pos": [
+        1974.451026015353,
+        1169.9614374288735
+      ],
+      "size": [
+        562.6276756220986,
+        150.01642983587976
+      ],
+      "flags": {},
+      "order": 16,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "WELCOME 👋",
+      "properties": {
+        "ue_properties": {
+          "version": "7.2.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "                                                                                              \n                                                                                              \n`7MMF'`7MN.   `7MF'.M\"\"\"bgd MMP\"\"MM\"\"YMM   db      `7MM\"\"\"Mq.        db `7MMF'     A     `7MF'\n  MM    MMN.    M ,MI    \"Y P'   MM   `7  ;MM:       MM   `MM.      ;MM:  `MA     ,MA     ,V  \n  MM    M YMb   M `MMb.          MM      ,V^MM.      MM   ,M9      ,V^MM.  VM:   ,VVM:   ,V   \n  MM    M  `MN. M   `YMMNq.      MM     ,M  `MM      MMmmdM9      ,M  `MM   MM.  M' MM.  M'   \n  MM    M   `MM.M .     `MM      MM     AbmmmqMA     MM  YM.      AbmmmqMA  `MM A'  `MM A'    \n  MM    M     YMM Mb     dM      MM    A'     VML    MM   `Mb.   A'     VML  :MM;    :MM;     \n.JMML..JML.    YM P\"Ybmmd\"     .JMML..AMA.   .AMMA..JMML. .JMM..AMA.   .AMMA. VF      VF      \n                                                                                              \n                                                                                              "
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    }
+  ],
+  "links": [
+    [
+      13,
+      9,
+      0,
+      8,
+      1,
+      "STRING"
+    ],
+    [
+      14,
+      8,
+      0,
+      11,
+      0,
+      "IMAGE"
+    ],
+    [
+      16,
+      8,
+      0,
+      10,
+      0,
+      "IMAGE"
+    ],
+    [
+      63,
+      36,
+      0,
+      37,
+      2,
+      "STRING"
+    ],
+    [
+      64,
+      37,
+      0,
+      3,
+      0,
+      "IMAGE"
+    ],
+    [
+      65,
+      37,
+      0,
+      6,
+      0,
+      "IMAGE"
+    ],
+    [
+      66,
+      37,
+      0,
+      8,
+      0,
+      "IMAGE"
+    ],
+    [
+      67,
+      37,
+      0,
+      10,
+      1,
+      "IMAGE"
+    ],
+    [
+      68,
+      8,
+      0,
+      38,
+      0,
+      "IMAGE"
+    ],
+    [
+      69,
+      36,
+      0,
+      38,
+      2,
+      "STRING"
+    ],
+    [
+      74,
+      38,
+      0,
+      40,
+      0,
+      "IMAGE"
+    ],
+    [
+      75,
+      38,
+      0,
+      39,
+      0,
+      "IMAGE"
+    ],
+    [
+      76,
+      8,
+      0,
+      39,
+      1,
+      "IMAGE"
+    ],
+    [
+      77,
+      41,
+      0,
+      43,
+      0,
+      "IMAGE"
+    ],
+    [
+      78,
+      41,
+      0,
+      42,
+      0,
+      "IMAGE"
+    ],
+    [
+      79,
+      38,
+      0,
+      41,
+      0,
+      "IMAGE"
+    ],
+    [
+      80,
+      36,
+      0,
+      41,
+      2,
+      "STRING"
+    ],
+    [
+      81,
+      38,
+      0,
+      42,
+      1,
+      "IMAGE"
+    ],
+    [
+      83,
+      41,
+      0,
+      45,
+      1,
+      "IMAGE"
+    ],
+    [
+      84,
+      44,
+      0,
+      45,
+      0,
+      "IMAGE"
+    ],
+    [
+      85,
+      44,
+      0,
+      46,
+      0,
+      "IMAGE"
+    ],
+    [
+      86,
+      41,
+      0,
+      44,
+      0,
+      "IMAGE"
+    ],
+    [
+      93,
+      50,
+      0,
+      49,
+      0,
+      "IMAGE"
+    ],
+    [
+      94,
+      50,
+      0,
+      48,
+      0,
+      "IMAGE"
+    ],
+    [
+      95,
+      50,
+      0,
+      51,
+      0,
+      "IMAGE"
+    ],
+    [
+      96,
+      50,
+      0,
+      52,
+      1,
+      "IMAGE"
+    ],
+    [
+      97,
+      51,
+      0,
+      53,
+      0,
+      "IMAGE"
+    ],
+    [
+      98,
+      51,
+      0,
+      52,
+      0,
+      "IMAGE"
+    ],
+    [
+      99,
+      54,
+      0,
+      55,
+      0,
+      "IMAGE"
+    ],
+    [
+      100,
+      54,
+      0,
+      56,
+      0,
+      "IMAGE"
+    ],
+    [
+      101,
+      51,
+      0,
+      54,
+      0,
+      "IMAGE"
+    ],
+    [
+      102,
+      51,
+      0,
+      56,
+      1,
+      "IMAGE"
+    ],
+    [
+      103,
+      54,
+      0,
+      57,
+      0,
+      "IMAGE"
+    ],
+    [
+      104,
+      57,
+      0,
+      58,
+      0,
+      "IMAGE"
+    ],
+    [
+      105,
+      57,
+      0,
+      59,
+      0,
+      "IMAGE"
+    ],
+    [
+      106,
+      54,
+      0,
+      59,
+      1,
+      "IMAGE"
+    ],
+    [
+      107,
+      44,
+      0,
+      62,
+      0,
+      "IMAGE"
+    ],
+    [
+      110,
+      44,
+      0,
+      61,
+      1,
+      "IMAGE"
+    ],
+    [
+      112,
+      57,
+      0,
+      65,
+      0,
+      "IMAGE"
+    ],
+    [
+      113,
+      68,
+      0,
+      69,
+      0,
+      "*"
+    ],
+    [
+      114,
+      68,
+      1,
+      70,
+      0,
+      "*"
+    ],
+    [
+      131,
+      36,
+      0,
+      77,
+      1,
+      "STRING"
+    ],
+    [
+      132,
+      57,
+      0,
+      77,
+      0,
+      "IMAGE"
+    ],
+    [
+      133,
+      77,
+      0,
+      68,
+      0,
+      "STRING"
+    ],
+    [
+      135,
+      36,
+      0,
+      44,
+      2,
+      "STRING"
+    ],
+    [
+      137,
+      57,
+      0,
+      72,
+      0,
+      "IMAGE"
+    ],
+    [
+      139,
+      89,
+      0,
+      6,
+      1,
+      "IMAGE"
+    ],
+    [
+      140,
+      89,
+      0,
+      37,
+      0,
+      "IMAGE"
+    ],
+    [
+      141,
+      89,
+      0,
+      72,
+      1,
+      "IMAGE"
+    ],
+    [
+      142,
+      44,
+      0,
+      90,
+      0,
+      "IMAGE"
+    ],
+    [
+      146,
+      90,
+      0,
+      60,
+      0,
+      "IMAGE"
+    ],
+    [
+      147,
+      90,
+      0,
+      61,
+      0,
+      "IMAGE"
+    ],
+    [
+      148,
+      90,
+      0,
+      50,
+      0,
+      "IMAGE"
+    ],
+    [
+      149,
+      90,
+      0,
+      48,
+      1,
+      "IMAGE"
+    ],
+    [
+      151,
+      93,
+      0,
+      89,
+      0,
+      "IMAGE"
+    ]
+  ],
+  "floatingLinks": [
+    {
+      "id": 3,
+      "origin_id": 36,
+      "origin_slot": 0,
+      "target_id": -1,
+      "target_slot": -1,
+      "type": "STRING",
+      "parentId": 42
+    }
+  ],
+  "groups": [
+    {
+      "id": 11,
+      "title": "1. Auto White Balance",
+      "bounding": [
+        3762.4842754911997,
+        1574.3294910168063,
+        1187.5605409056097,
+        655.2109975473576
+      ],
+      "color": "#88A",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 12,
+      "title": "2. Color Science (LUT)",
+      "bounding": [
+        3748.383097018869,
+        2352.087280078079,
+        1191.4605348020941,
+        655.2109975473578
+      ],
+      "color": "#88A",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 13,
+      "title": "3. FFT Match",
+      "bounding": [
+        3748.383097018869,
+        3114.4770519677722,
+        1191.4605348020941,
+        655.2109975473578
+      ],
+      "color": "#88A",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 14,
+      "title": "4. GLCM Normalize",
+      "bounding": [
+        5148.35015665292,
+        1582.5584465746554,
+        1194.2162119562427,
+        655.2109975473576
+      ],
+      "color": "#88A",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 15,
+      "title": "5. LBP Normalize",
+      "bounding": [
+        5138.148972077074,
+        2360.3162356359285,
+        1194.2162119562427,
+        655.2109975473574
+      ],
+      "color": "#88A",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 16,
+      "title": "6. Neural Grain",
+      "bounding": [
+        5138.148972077074,
+        3122.7060075256218,
+        1194.2162119562427,
+        655.2109975473574
+      ],
+      "color": "#88A",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 17,
+      "title": "7. Camera Simulator",
+      "bounding": [
+        6548.731691470899,
+        1582.5584465746554,
+        1196.2362590945404,
+        655.2109975473576
+      ],
+      "color": "#88A",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 18,
+      "title": "8. Pixel Perturb",
+      "bounding": [
+        6538.530506895053,
+        2360.3162356359285,
+        1196.2362590945404,
+        655.2109975473574
+      ],
+      "color": "#88A",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 19,
+      "title": "9. Spectral Normalizer",
+      "bounding": [
+        6538.530506895053,
+        3122.7060075256218,
+        1196.2362590945404,
+        655.2109975473574
+      ],
+      "color": "#88A",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 21,
+      "title": "IPHONE TO CLONE",
+      "bounding": [
+        3288.191277870985,
+        1574.3294910168063,
+        335.13333740234384,
+        141.6
+      ],
+      "color": "#8AA",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 22,
+      "title": "10. Multi-Compression",
+      "bounding": [
+        7959.814796415462,
+        1585.3686902594618,
+        1145.4293097190966,
+        655.2109975473576
+      ],
+      "color": "#88A",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 23,
+      "title": "11. Save raw output before adding metadata",
+      "bounding": [
+        7949.613611839616,
+        2359.2460042072134,
+        1143.256676185404,
+        1418.6710008657656
+      ],
+      "color": "#88A",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 24,
+      "title": "12. Compare, review & save final output with iPhone metadata",
+      "bounding": [
+        9306.370899445703,
+        1589.1091246039387,
+        3823.3794689289116,
+        2191.676559000676
+      ],
+      "color": "#88A",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 28,
+      "title": "BYPASS FEATURES",
+      "bounding": [
+        3287.9328979909196,
+        1746.4963875022952,
+        332.80577232444193,
+        408.1383458867956
+      ],
+      "color": "#8AA",
+      "font_size": 24,
+      "flags": {}
+    }
+  ],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.3138428376721199,
+      "offset": [
+        -256.3254247656913,
+        356.98258754872086
+      ]
+    },
+    "frontendVersion": "1.41.21",
+    "reroutes": [
+      {
+        "id": 4,
+        "pos": [
+          4089.4085087452395,
+          1828.374762197331
+        ],
+        "linkIds": [
+          66
+        ]
+      },
+      {
+        "id": 7,
+        "parentId": 8,
+        "pos": [
+          4522.0383170647365,
+          1589.7728679120323
+        ],
+        "linkIds": [
+          139
+        ]
+      },
+      {
+        "id": 8,
+        "parentId": 32,
+        "pos": [
+          4363.311305584148,
+          1547.674123384033
+        ],
+        "linkIds": [
+          139
+        ]
+      },
+      {
+        "id": 11,
+        "parentId": 13,
+        "pos": [
+          4097.652695024678,
+          2226.0089240476227
+        ],
+        "linkIds": [
+          67
+        ]
+      },
+      {
+        "id": 13,
+        "pos": [
+          4098.004042869007,
+          1863.1675478077314
+        ],
+        "linkIds": [
+          67
+        ]
+      },
+      {
+        "id": 17,
+        "parentId": 29,
+        "pos": [
+          3647.2378287798156,
+          2201.672356238112
+        ],
+        "linkIds": [
+          69
+        ]
+      },
+      {
+        "id": 19,
+        "parentId": 11,
+        "pos": [
+          4512.3667699861135,
+          2371.0321480814496
+        ],
+        "linkIds": [
+          67
+        ]
+      },
+      {
+        "id": 23,
+        "pos": [
+          3745.357677579456,
+          1522.6129481012279
+        ],
+        "linkIds": [
+          80
+        ]
+      },
+      {
+        "id": 25,
+        "parentId": 23,
+        "pos": [
+          4950.745188868763,
+          1531.2491365666376
+        ],
+        "linkIds": [
+          80
+        ]
+      },
+      {
+        "id": 26,
+        "parentId": 25,
+        "pos": [
+          5115.245934853667,
+          1706.925501279201
+        ],
+        "linkIds": [
+          80
+        ]
+      },
+      {
+        "id": 28,
+        "parentId": 17,
+        "pos": [
+          3625.6222709667436,
+          3237.063189574607
+        ],
+        "linkIds": [
+          69
+        ]
+      },
+      {
+        "id": 29,
+        "pos": [
+          3638.699086812523,
+          1725.058110654419
+        ],
+        "linkIds": [
+          69
+        ]
+      },
+      {
+        "id": 32,
+        "pos": [
+          3255.8678774993778,
+          1538.4845986528396
+        ],
+        "linkIds": [
+          139
+        ]
+      },
+      {
+        "id": 34,
+        "pos": [
+          3234.604088361013,
+          1483.0667658471207
+        ],
+        "linkIds": [
+          141
+        ]
+      },
+      {
+        "id": 36,
+        "parentId": 34,
+        "pos": [
+          9111.806552923043,
+          1514.449114649345
+        ],
+        "linkIds": [
+          141
+        ]
+      },
+      {
+        "id": 38,
+        "pos": [
+          3718.037697731027,
+          1688.5840893494767
+        ],
+        "linkIds": [
+          63
+        ]
+      },
+      {
+        "id": 39,
+        "parentId": 40,
+        "pos": [
+          3686.6284624664722,
+          3867.3357130565837
+        ],
+        "linkIds": [
+          131
+        ]
+      },
+      {
+        "id": 40,
+        "pos": [
+          3666.8673515069427,
+          1714.464261955161
+        ],
+        "linkIds": [
+          131
+        ]
+      },
+      {
+        "id": 41,
+        "parentId": 39,
+        "pos": [
+          9190.693758435376,
+          3876.1300255248075
+        ],
+        "linkIds": [
+          131
+        ]
+      },
+      {
+        "id": 42,
+        "parentId": 41,
+        "pos": [
+          9195.578254239124,
+          1517.4873407461157
+        ],
+        "linkIds": [
+          131
+        ],
+        "floating": {
+          "slotType": "output"
+        }
+      },
+      {
+        "id": 43,
+        "pos": [
+          13030.408983899717,
+          1606.1677720072266
+        ],
+        "linkIds": [
+          133
+        ]
+      },
+      {
+        "id": 44,
+        "parentId": 55,
+        "pos": [
+          10883.837946418626,
+          1620.090977805754
+        ],
+        "linkIds": [
+          133
+        ]
+      },
+      {
+        "id": 45,
+        "parentId": 50,
+        "pos": [
+          11251.268171936304,
+          1880.2724156080264
+        ],
+        "linkIds": [
+          113
+        ]
+      },
+      {
+        "id": 46,
+        "parentId": 53,
+        "pos": [
+          10886.817228225515,
+          1891.3022664251253
+        ],
+        "linkIds": [
+          113
+        ]
+      },
+      {
+        "id": 47,
+        "pos": [
+          11233.262941193658,
+          1727.3377960070686
+        ],
+        "linkIds": [
+          114
+        ]
+      },
+      {
+        "id": 48,
+        "parentId": 54,
+        "pos": [
+          10883.224045745372,
+          1737.2632820814542
+        ],
+        "linkIds": [
+          114
+        ]
+      },
+      {
+        "id": 49,
+        "parentId": 51,
+        "pos": [
+          12028.251111279362,
+          1602.025992807809
+        ],
+        "linkIds": [
+          133
+        ]
+      },
+      {
+        "id": 50,
+        "pos": [
+          11254.627692350323,
+          1742.118244785155
+        ],
+        "linkIds": [
+          113
+        ]
+      },
+      {
+        "id": 51,
+        "parentId": 43,
+        "pos": [
+          12654.395257487264,
+          1597.7452075176702
+        ],
+        "linkIds": [
+          133
+        ]
+      },
+      {
+        "id": 52,
+        "parentId": 49,
+        "pos": [
+          11237.050486419957,
+          1606.4222157642791
+        ],
+        "linkIds": [
+          133
+        ]
+      },
+      {
+        "id": 53,
+        "parentId": 45,
+        "pos": [
+          11062.397994785526,
+          1886.202927206827
+        ],
+        "linkIds": [
+          113
+        ]
+      },
+      {
+        "id": 54,
+        "parentId": 47,
+        "pos": [
+          11062.845709907158,
+          1731.3830381480097
+        ],
+        "linkIds": [
+          114
+        ]
+      },
+      {
+        "id": 55,
+        "parentId": 52,
+        "pos": [
+          11062.397994785522,
+          1606.7344390369274
+        ],
+        "linkIds": [
+          133
+        ]
+      },
+      {
+        "id": 56,
+        "parentId": 42,
+        "pos": [
+          11510.215312167471,
+          1521.122351446866
+        ],
+        "linkIds": [
+          131
+        ]
+      },
+      {
+        "id": 57,
+        "pos": [
+          8276.044299064886,
+          1555.0523471102981
+        ],
+        "linkIds": [
+          132
+        ]
+      },
+      {
+        "id": 58,
+        "parentId": 57,
+        "pos": [
+          11566.50112236307,
+          1552.5077587619576
+        ],
+        "linkIds": [
+          132
+        ]
+      },
+      {
+        "id": 64,
+        "pos": [
+          4084.211519559441,
+          2501.403224441455
+        ],
+        "linkIds": [
+          13
+        ]
+      },
+      {
+        "id": 65,
+        "parentId": 64,
+        "pos": [
+          3767.4808219452157,
+          2509.5434993801373
+        ],
+        "linkIds": [
+          13
+        ]
+      },
+      {
+        "id": 66,
+        "pos": [
+          4096.791944464679,
+          2526.5640742519327
+        ],
+        "linkIds": [
+          14
+        ]
+      },
+      {
+        "id": 67,
+        "pos": [
+          4088.8219492772105,
+          2643.9532030827
+        ],
+        "linkIds": [
+          68
+        ]
+      },
+      {
+        "id": 69,
+        "parentId": 67,
+        "pos": [
+          3726.51621125861,
+          3110.5196250969125
+        ],
+        "linkIds": [
+          68
+        ]
+      },
+      {
+        "id": 71,
+        "parentId": 72,
+        "pos": [
+          5047.968756969285,
+          3129.127854856832
+        ],
+        "linkIds": [
+          79
+        ]
+      },
+      {
+        "id": 72,
+        "pos": [
+          4096.163617146056,
+          3132.2175775606333
+        ],
+        "linkIds": [
+          79
+        ]
+      },
+      {
+        "id": 73,
+        "parentId": 71,
+        "pos": [
+          5050.517379311112,
+          1675.0029232070206
+        ],
+        "linkIds": [
+          79
+        ]
+      },
+      {
+        "id": 74,
+        "parentId": 76,
+        "pos": [
+          4511.2654599859725,
+          3146.867272841771
+        ],
+        "linkIds": [
+          76
+        ]
+      },
+      {
+        "id": 75,
+        "pos": [
+          4098.9768452325725,
+          2697.5963959283927
+        ],
+        "linkIds": [
+          76
+        ]
+      },
+      {
+        "id": 76,
+        "parentId": 75,
+        "pos": [
+          4098.122953776293,
+          3012.294906169256
+        ],
+        "linkIds": [
+          76
+        ]
+      },
+      {
+        "id": 77,
+        "pos": [
+          4129.150593690619,
+          3069.970058478705
+        ],
+        "linkIds": [
+          81
+        ]
+      },
+      {
+        "id": 78,
+        "parentId": 77,
+        "pos": [
+          4995.143911530935,
+          3061.70187193077
+        ],
+        "linkIds": [
+          81
+        ]
+      },
+      {
+        "id": 80,
+        "parentId": 78,
+        "pos": [
+          5008.630160213823,
+          1566.278857526252
+        ],
+        "linkIds": [
+          81
+        ]
+      },
+      {
+        "id": 81,
+        "parentId": 84,
+        "pos": [
+          5910.138830431204,
+          1566.0527285147416
+        ],
+        "linkIds": [
+          81
+        ]
+      },
+      {
+        "id": 83,
+        "parentId": 4,
+        "pos": [
+          3725.076294468388,
+          2336.9841146958674
+        ],
+        "linkIds": [
+          66
+        ]
+      },
+      {
+        "id": 84,
+        "parentId": 80,
+        "pos": [
+          5492.445287614883,
+          1560.2433040086992
+        ],
+        "linkIds": [
+          81
+        ]
+      },
+      {
+        "id": 85,
+        "pos": [
+          5501.238378821754,
+          1674.858637922795
+        ],
+        "linkIds": [
+          77
+        ]
+      },
+      {
+        "id": 87,
+        "pos": [
+          5483.610618400201,
+          1838.9923106896802
+        ],
+        "linkIds": [
+          86
+        ]
+      },
+      {
+        "id": 91,
+        "parentId": 87,
+        "pos": [
+          5105.680980909335,
+          2339.794906186262
+        ],
+        "linkIds": [
+          86
+        ]
+      },
+      {
+        "id": 92,
+        "pos": [
+          5498.924627747693,
+          1844.7018169827916
+        ],
+        "linkIds": [
+          83
+        ]
+      },
+      {
+        "id": 93,
+        "parentId": 92,
+        "pos": [
+          5494.134016246703,
+          2239.3911739358027
+        ],
+        "linkIds": [
+          83
+        ]
+      },
+      {
+        "id": 94,
+        "parentId": 93,
+        "pos": [
+          5904.150635658455,
+          2377.9215697652467
+        ],
+        "linkIds": [
+          83
+        ]
+      },
+      {
+        "id": 96,
+        "pos": [
+          5472.379580744568,
+          2640.984751763216
+        ],
+        "linkIds": [
+          107
+        ]
+      },
+      {
+        "id": 97,
+        "parentId": 96,
+        "pos": [
+          5088.681092365833,
+          3106.6189665628754
+        ],
+        "linkIds": [
+          107
+        ]
+      },
+      {
+        "id": 98,
+        "pos": [
+          3695.3154533276133,
+          1707.1042315018497
+        ],
+        "linkIds": [
+          135
+        ]
+      },
+      {
+        "id": 99,
+        "parentId": 98,
+        "pos": [
+          3706.939787081773,
+          2261.027763838572
+        ],
+        "linkIds": [
+          135
+        ]
+      },
+      {
+        "id": 100,
+        "parentId": 99,
+        "pos": [
+          4933.1857157824425,
+          2281.117518937618
+        ],
+        "linkIds": [
+          135
+        ]
+      },
+      {
+        "id": 106,
+        "pos": [
+          5488.2429952806915,
+          2652.233917133145
+        ],
+        "linkIds": [
+          110
+        ]
+      },
+      {
+        "id": 107,
+        "parentId": 106,
+        "pos": [
+          5487.13040926724,
+          3020.0355312039073
+        ],
+        "linkIds": [
+          110
+        ]
+      },
+      {
+        "id": 108,
+        "parentId": 107,
+        "pos": [
+          5907.3099655392925,
+          3147.627548109526
+        ],
+        "linkIds": [
+          110
+        ]
+      },
+      {
+        "id": 109,
+        "pos": [
+          5486.167828357622,
+          3142.3725431711464
+        ],
+        "linkIds": [
+          148
+        ]
+      },
+      {
+        "id": 110,
+        "pos": [
+          5522.708316765175,
+          3080.527253425869
+        ],
+        "linkIds": [
+          149
+        ]
+      },
+      {
+        "id": 111,
+        "parentId": 109,
+        "pos": [
+          6453.797181134507,
+          3131.004443157904
+        ],
+        "linkIds": [
+          148
+        ]
+      },
+      {
+        "id": 112,
+        "parentId": 111,
+        "pos": [
+          6466.498233282612,
+          1683.906875500311
+        ],
+        "linkIds": [
+          148
+        ]
+      },
+      {
+        "id": 113,
+        "parentId": 110,
+        "pos": [
+          6402.723344163553,
+          3074.8839088368964
+        ],
+        "linkIds": [
+          149
+        ]
+      },
+      {
+        "id": 114,
+        "parentId": 113,
+        "pos": [
+          6417.8289220616925,
+          1557.8183232898566
+        ],
+        "linkIds": [
+          149
+        ]
+      },
+      {
+        "id": 115,
+        "parentId": 116,
+        "pos": [
+          7312.857971747181,
+          1562.5772511813695
+        ],
+        "linkIds": [
+          149
+        ]
+      },
+      {
+        "id": 116,
+        "parentId": 114,
+        "pos": [
+          6886.140770808095,
+          1554.6457046955134
+        ],
+        "linkIds": [
+          149
+        ]
+      },
+      {
+        "id": 117,
+        "parentId": 119,
+        "pos": [
+          6889.778181343893,
+          2006.813340662303
+        ],
+        "linkIds": [
+          95
+        ]
+      },
+      {
+        "id": 118,
+        "parentId": 117,
+        "pos": [
+          6503.612700532511,
+          2350.925002685338
+        ],
+        "linkIds": [
+          95
+        ]
+      },
+      {
+        "id": 119,
+        "pos": [
+          6893.028593126908,
+          1719.6936331625411
+        ],
+        "linkIds": [
+          95
+        ]
+      },
+      {
+        "id": 120,
+        "parentId": 121,
+        "pos": [
+          6904.362265064928,
+          2007.3123066569328
+        ],
+        "linkIds": [
+          96
+        ]
+      },
+      {
+        "id": 121,
+        "pos": [
+          6903.164742997146,
+          1716.9421873741542
+        ],
+        "linkIds": [
+          96
+        ]
+      },
+      {
+        "id": 122,
+        "parentId": 120,
+        "pos": [
+          6901.187289350435,
+          2234.5918773725452
+        ],
+        "linkIds": [
+          96
+        ]
+      },
+      {
+        "id": 123,
+        "parentId": 122,
+        "pos": [
+          7307.1710202172835,
+          2382.7309945019556
+        ],
+        "linkIds": [
+          96
+        ]
+      },
+      {
+        "id": 124,
+        "pos": [
+          6875.403298309494,
+          2550.828698504033
+        ],
+        "linkIds": [
+          101
+        ]
+      },
+      {
+        "id": 125,
+        "parentId": 124,
+        "pos": [
+          6518.806286782134,
+          3116.055746785877
+        ],
+        "linkIds": [
+          101
+        ]
+      },
+      {
+        "id": 126,
+        "pos": [
+          6892.15821878678,
+          2553.181588437149
+        ],
+        "linkIds": [
+          102
+        ]
+      },
+      {
+        "id": 127,
+        "parentId": 126,
+        "pos": [
+          6886.3878661964845,
+          3010.414932707739
+        ],
+        "linkIds": [
+          102
+        ]
+      },
+      {
+        "id": 128,
+        "parentId": 127,
+        "pos": [
+          7307.1566595270315,
+          3153.620533129039
+        ],
+        "linkIds": [
+          102
+        ]
+      },
+      {
+        "id": 129,
+        "pos": [
+          6886.172009539683,
+          3140.455806156131
+        ],
+        "linkIds": [
+          103
+        ]
+      },
+      {
+        "id": 130,
+        "pos": [
+          6921.699343110632,
+          3079.521218036904
+        ],
+        "linkIds": [
+          106
+        ]
+      },
+      {
+        "id": 131,
+        "parentId": 130,
+        "pos": [
+          7816.218798828565,
+          3067.7381863081887
+        ],
+        "linkIds": [
+          106
+        ]
+      },
+      {
+        "id": 132,
+        "parentId": 129,
+        "pos": [
+          7869.482173668239,
+          3127.6093653467783
+        ],
+        "linkIds": [
+          103
+        ]
+      },
+      {
+        "id": 133,
+        "parentId": 131,
+        "pos": [
+          7832.569435486757,
+          1581.3147281412778
+        ],
+        "linkIds": [
+          106
+        ]
+      },
+      {
+        "id": 134,
+        "parentId": 135,
+        "pos": [
+          8676.824497194497,
+          1574.7828877670481
+        ],
+        "linkIds": [
+          106
+        ]
+      },
+      {
+        "id": 135,
+        "parentId": 133,
+        "pos": [
+          8238.473964136938,
+          1570.7307077442217
+        ],
+        "linkIds": [
+          106
+        ]
+      },
+      {
+        "id": 136,
+        "parentId": 132,
+        "pos": [
+          7878.5799353435505,
+          1683.8034096857568
+        ],
+        "linkIds": [
+          103
+        ]
+      },
+      {
+        "id": 137,
+        "pos": [
+          8252.080869427315,
+          1856.6138376998565
+        ],
+        "linkIds": [
+          112
+        ]
+      },
+      {
+        "id": 138,
+        "parentId": 137,
+        "pos": [
+          7927.889906612106,
+          2353.4948535246517
+        ],
+        "linkIds": [
+          112
+        ]
+      },
+      {
+        "id": 139,
+        "pos": [
+          3675.420981020123,
+          1401.7854360636904
+        ],
+        "linkIds": [
+          140
+        ]
+      }
+    ],
+    "workflowRendererVersion": "LG",
+    "ue_links": [],
+    "VHS_latentpreview": false,
+    "VHS_latentpreviewrate": 0,
+    "VHS_MetadataImage": true,
+    "VHS_KeepIntermediate": true,
+    "links_added_by_ue": [],
+    "instara_id": "01KCN5H3M914WVNPN9KGF5MF2M",
+    "linkExtensions": [
+      {
+        "id": 13,
+        "parentId": 65
+      },
+      {
+        "id": 14,
+        "parentId": 66
+      },
+      {
+        "id": 63,
+        "parentId": 38
+      },
+      {
+        "id": 66,
+        "parentId": 83
+      },
+      {
+        "id": 67,
+        "parentId": 19
+      },
+      {
+        "id": 68,
+        "parentId": 69
+      },
+      {
+        "id": 69,
+        "parentId": 28
+      },
+      {
+        "id": 76,
+        "parentId": 74
+      },
+      {
+        "id": 77,
+        "parentId": 85
+      },
+      {
+        "id": 79,
+        "parentId": 73
+      },
+      {
+        "id": 80,
+        "parentId": 26
+      },
+      {
+        "id": 81,
+        "parentId": 81
+      },
+      {
+        "id": 83,
+        "parentId": 94
+      },
+      {
+        "id": 86,
+        "parentId": 91
+      },
+      {
+        "id": 95,
+        "parentId": 118
+      },
+      {
+        "id": 96,
+        "parentId": 123
+      },
+      {
+        "id": 101,
+        "parentId": 125
+      },
+      {
+        "id": 102,
+        "parentId": 128
+      },
+      {
+        "id": 103,
+        "parentId": 136
+      },
+      {
+        "id": 106,
+        "parentId": 134
+      },
+      {
+        "id": 107,
+        "parentId": 97
+      },
+      {
+        "id": 110,
+        "parentId": 108
+      },
+      {
+        "id": 112,
+        "parentId": 138
+      },
+      {
+        "id": 113,
+        "parentId": 46
+      },
+      {
+        "id": 114,
+        "parentId": 48
+      },
+      {
+        "id": 131,
+        "parentId": 56
+      },
+      {
+        "id": 132,
+        "parentId": 58
+      },
+      {
+        "id": 133,
+        "parentId": 44
+      },
+      {
+        "id": 135,
+        "parentId": 100
+      },
+      {
+        "id": 139,
+        "parentId": 7
+      },
+      {
+        "id": 140,
+        "parentId": 139
+      },
+      {
+        "id": 141,
+        "parentId": 36
+      },
+      {
+        "id": 148,
+        "parentId": 112
+      },
+      {
+        "id": 149,
+        "parentId": 115
+      }
+    ]
+  },
+  "version": 0.4
+}
