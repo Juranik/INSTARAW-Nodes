@@ -15,12 +15,17 @@ Created by Instara
 """
 
 import os
-import nodes
+import importlib
+
+# Import ComfyUI's global `nodes` module WITHOUT polluting our local namespace.
+# Our package has a sub-package also called `nodes/`, and a bare `import nodes`
+# would shadow it, breaking `from .nodes import ...` below.
+_comfyui_nodes = importlib.import_module("nodes")
 
 # This line is critical for loading the JavaScript and CSS files.
 # It tells ComfyUI where to find the web assets for this extension.
-if "ComfyUI_INSTARAW" not in nodes.EXTENSION_WEB_DIRS:
-    nodes.EXTENSION_WEB_DIRS["ComfyUI_INSTARAW"] = os.path.join(os.path.dirname(os.path.realpath(__file__)), "js")
+if "ComfyUI_INSTARAW" not in _comfyui_nodes.EXTENSION_WEB_DIRS:
+    _comfyui_nodes.EXTENSION_WEB_DIRS["ComfyUI_INSTARAW"] = os.path.join(os.path.dirname(os.path.realpath(__file__)), "js")
 
 from .nodes import NODE_CLASS_MAPPINGS, NODE_DISPLAY_NAME_MAPPINGS
 
